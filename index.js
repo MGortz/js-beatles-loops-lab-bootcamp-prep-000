@@ -9,12 +9,13 @@ function theBeatlesPlay (mus, inst) {
 
 function johnLennonFacts(facts) {
   var i = 0;
+  var arrayUpdate = [];
   while(i != facts.length) {
     var updateElement = `${facts[i]}!!!`;
-    array.push(updateElement);
+    arrayUpdate.push(updateElement);
     i++;
   }
-  return array;
+  return arrayUpdate;
 }
 
 function iLoveTheBeatles(num) {
