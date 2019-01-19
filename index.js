@@ -11,8 +11,7 @@ function johnLennonFacts(facts) {
   var i = 0;
   var arrayUpdate = [];
   while(i != facts.length) {
-    var updateElement = `${facts[i]}!!!`;
-    arrayUpdate.push(updateElement);
+    arrayUpdate.push(`${facts[i]}!!!`);
     i++;
   }
   return arrayUpdate;
