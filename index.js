@@ -10,8 +10,8 @@ function theBeatlesPlay (mus, inst) {
 function johnLennonFacts(facts) {
   var i = 0;
   while(i != facts.length) {
-    var selectElement = facts.splice(facts[i], 1, `${facts[i]}!!!`);
-    array.push(selectElement);
+    var updateElement = `${facts[i]}!!!`;
+    array.push(updateElement);
     i++;
   }
   return array;
